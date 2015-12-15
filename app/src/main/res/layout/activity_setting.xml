@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.gradiuation.stopwatch.Setting">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView"
+        android:layout_marginBottom="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="This is demo for toshipa hospital \n
+
+Our Mission: Understanding your business is our business.
+
+Toshiba provides integrated diagnostic solutions
+through long-term, customer-focused partnerships
+to improve the quality of life for all people.
+Our Heritage
+
+Since its inception in 1875, Toshiba has worked to improve the quality of life for all people. The company's technology, from light bulbs to laptops, has delivered on this mission with medical innovations that are Made for Life—made to improve the lives of patients, clinicians and administrators.
+
+This legacy is expressed best in the partnership of Toshiba's founding companies: Tokyo Electric Company and Shibaura Engineering. These two companies' life-saving partnership (now Toshiba) developed one of the world's first X-ray machines in 1932 to help physicians manage a tuberculosis outbreak in Japan. Today, Toshiba's imaging technology continues to save lives and improve health of people around the world with some of the most powerful and patient-friendly systems available.
+
+         "
+                android:id="@+id/textView"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/email"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@+id/setemail"
+                android:layout_toStartOf="@+id/setemail"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:phoneNumber="false"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/setemail"
+                android:layout_alignParentTop="false"
+                android:layout_alignRight="@+id/scrollView"
+                android:layout_alignEnd="@+id/scrollView"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:text="Set EMail"
+                android:layout_weight=".5"
+                android:textAlignment="center"
+                android:layout_gravity="center" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
