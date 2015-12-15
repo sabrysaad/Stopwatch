@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">ElAraby Hospital Code Heart</string>
+    <string name="action_settings">About Us</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="timerVal">00:00:00</string>
+    <string name="pauseButtonLabel">Pause</string>
+    <string name="startButtonLabel">Start CPR </string>
+    <string name="other_notification">Other Medication</string>
+    <string name="rhythm">Rhythm</string>
+    <string name="event">Events</string>
+    <string name="ROSC">ROSC</string>
+    <string name="Edit">Edit</string>
+    <string name="title_activity_splash">Spalsh</string>
+    <string name="title_activity_other__medication">Other Medication</string>
+    <string name="title_activity_events">Events</string>
+    <string name="title_activity_rhythm">Rhythm</string>
+    <string name="shock">Shock</string>
+    <string name="epinephrine">Epinephrine</string>
+    <string name="title_activity_rosc">Rosc</string>
+    <string name="title_activity_setting">About Us</string>
+
+</resources>
